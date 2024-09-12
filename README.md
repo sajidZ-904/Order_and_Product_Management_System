@@ -51,7 +51,9 @@ This command will build the Docker images for the Order Service and Product Serv
 ### 4. Access the Services
    
 **Order Service**: Accessible at http://localhost:5001
+
 **Product Service**: Accessible at http://localhost:5002
+
 **RabbitMQ Management**: Accessible at http://localhost:15672 (default username: guest, password: guest)
 
 ### Testing
