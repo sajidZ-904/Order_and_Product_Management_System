@@ -77,7 +77,9 @@ dotnet test
 ### Design Considerations
 
 **Scalability**: The Product Service is designed to handle high read volume through indexing and optimized queries.
+
 **Loose Coupling**: Event-driven architecture ensures that services remain loosely coupled, allowing for independent scaling and updates.
+
 **Database Isolation**: Each service uses a separate database schema to maintain data integrity and isolation.
 
 ### Scaling the System
@@ -85,7 +87,9 @@ dotnet test
 For increased load, consider:
 
 a. Adding more replicas of the Product Service for read scalability.
+
 b. Implementing caching for frequently accessed data.
+
 c. Using a cloud-based RabbitMQ service for higher availability and scaling.
 
 ### License
